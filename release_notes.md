@@ -27,6 +27,7 @@ This is the first official release of the **Qsafe Wallet** (testnet build), comp
 2. Install appimage dependency:
 
     ```
+    sudo apt update
     sudo apt install libfuse2
     ```
 3. Open terminal and run the appimage:
