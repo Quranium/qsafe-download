@@ -1,60 +1,66 @@
-# Quranium Core Build - Official Release
+# Qsafe Wallet - A Lightweight Quranium Client (Testnet Build - Official Release)
+
+**Version: 1.0.0**
 
 ## Overview
-
-This is the first official release of the Quranium Core build, compatible with systems running **Windows 11** (and above) and **Ubuntu 24 LTS** (and above). This build is set up to provide a stable environment for the Quranium blockchain's core functions and is specifically configured to default to testnet mode.
+This is the first official release of the **Qsafe Wallet** (testnet build), compatible with systems running **Windows 11 (and above)** and **Ubuntu 24 LTS (and above)**. This build is set up to provide a stable environment for the **Quranium blockchain**'s core functions **without** running full node on our systems and is specifically configured to default to **testnet** mode.
 
 ## System Requirements
 
-### Windows:
-* **Operating System**: Windows 11 or later
-* **Dependencies**: All necessary dependencies are included, with additional information in the README.md file if system compatibility issues arise.
-
 ### Ubuntu:
-* **Operating System**: Ubuntu 24 LTS or later
-* **Dependencies**: All necessary dependencies are included, with additional information in the README.md file if system compatibility issues arise.
+* **Operating System:** Ubuntu 24 LTS or later
+
+* **Dependencies:** All necessary dependencies are included.
+
+### Windows:
+
+* **Operating System:** Windows 11 or later
+
+* **Dependencies:** All necessary dependencies are included.
 
 ## Installation & Usage
 
 ### For Ubuntu:
 
-1. **Download and Extract**
-   - Unpack the `quranium-1.0-x86_64-linux-gnu.tar.gz` archive to your preferred directory.
+1. Download the AppImage file `./qsafe-1.0.0-x86_64.AppImage`.
 
-2. **Navigate to the `bin` Directory**
-   - Quranium binaries are located in the `bin` directory. To start the Quranium QT wallet, navigate to this directory before launching the application.
+2. Install appimage dependency:
 
-   Example:
-   ```bash
-   cd path/to/quranium-1.0-x86_64-linux-gnu/bin
-   ./quranium-qt
+    ```
+    sudo apt install libfuse2
+    ```
+3. Open terminal and run the appimage:
+    ```
+    chmod +x ./qsafe-1.0.0-x86_64.AppImage
+    ./qsafe-1.0.0-x86_64.AppImage
+    ```
+
 
 ### For Windows:
 
-1. **Download and Extract**
-   - Unpack the `quranium-1.0-x86_64-windows64-mingw32.tar.gz` archive to your preferred directory.
+1. Using qsafe installer:
 
-2. **Navigate to the `bin` Directory**
-   - Quranium binaries are located in the `bin` directory. To start the Quranium QT wallet, navigate to this directory before launching the application.
+    * Download the `qsafe-1.0.0-setup.exe` file.
+    * Execute the setup to complete the installation.
+    * After installation, we can open the qsafe software from anywhere.
 
-   Example:
-   ```powershell
-   cd path\to\quranium-1.0-x86_64-windows64-mingw32\bin
-   .\quranium-qt.exe
+2. Using standalone executable:
 
+    * Download the `qsafe-1.0.0.exe` file.
+    * We can directly open the software without any additional steps.
 
-### Configuration
+3. Using portable version:
 
-The application defaults to testnet mode for safe testing and transaction handling. No configuration change is needed to enable testnet, though additional custom configurations can be added to a `quranium.conf` file if desired.
+    * Download the `qsafe-1.0.0-portable.exe` file.
+    * We can directly open the software without any additional steps.
 
-### Further Instructions
+**Security Advice**: Using **portable softwares** can be risky, as they store data in the program’s directory instead of the secure `username\AppData\` path. This can make data vulnerable to loss, unauthorized access, or exposure if the program is moved or deleted.
 
-For specific commands and guidance on using Quranium CLI, and other utilities, refer to README.md. The README.md also includes troubleshooting tips for common setup and runtime issues.
+## Configuration
+The application defaults to **testnet** mode for safe testing and transaction handling. No further configuration changes are needed to enable testnet.
 
 ## Future Updates
-
 We plan to provide updates with expanded compatibility and additional features. Feedback and reports on your experience are highly appreciated and will be addressed in subsequent releases.
 
----
-
-Enjoy exploring the Quranium blockchain!
+----
+Enjoy exploring the **Qsafe Wallet - A Lightweight Quranium Client**!
