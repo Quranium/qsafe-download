@@ -50,13 +50,6 @@ This is the first official release of the **Qsafe Wallet** (testnet build), comp
     * Download the `qsafe-1.0.0.exe` file.
     * We can directly open the software without any additional steps.
 
-3. Using portable version:
-
-    * Download the `qsafe-1.0.0-portable.exe` file.
-    * We can directly open the software without any additional steps.
-
-**Security Advice**: Using **portable softwares** can be risky, as they store data in the program’s directory instead of the secure `username\AppData\` path. This can make data vulnerable to loss, unauthorized access, or exposure if the program is moved or deleted.
-
 ## Configuration
 The application defaults to **testnet** mode for safe testing and transaction handling. No further configuration changes are needed to enable testnet.
 
