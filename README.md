@@ -1,4 +1,4 @@
-# Quranium Releases
+# Qsafe Wallet Release
 Welcome to the official releases page for Qsafe wallet software.
 
 ## Available Releases
