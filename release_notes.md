@@ -1,9 +1,9 @@
 # Qsafe Wallet - A Lightweight Quranium Client (Testnet Build - Official Release)
 
-**Version: 1.2.0**
+**Version: 2.0.0**
 
 ## Overview
-This is an official release of the **Qsafe Wallet** (testnet build), compatible with systems running **Windows 11 (and above)** and **Ubuntu 24 LTS (and above)**. This build is set up to provide a stable environment for the **Quranium blockchain**'s core functions **without** running full node on our systems and is specifically configured to default to **testnet** mode.
+This is an official release of the **Qsafe Wallet** (mainnet build), compatible with systems running **Windows 11 (and above)** and **Ubuntu 24 LTS (and above)**. This build is set up to provide a stable environment for the **Quranium blockchain**'s core functions **without** running full node on our systems.
 
 ### Important: 
 To maintain compatibility with the new release, delete the existing Quranium folder:
@@ -17,7 +17,7 @@ To maintain compatibility with the new release, delete the existing Quranium fol
 ```
 ~/.qsafe/
 ```
-If you have placed the Qsafe folder in a different location, please delete that folder in the corresponding location. This is necessary as we are relaunching the testnet to provide more enhanced functionalities.
+If you have placed the Qsafe folder in a different location, please delete that folder in the corresponding location.
 
 ## System Requirements
 
@@ -36,7 +36,7 @@ If you have placed the Qsafe folder in a different location, please delete that 
 
 ### For Ubuntu:
 
-1. Download the AppImage file `./qsafe-1.2.0-x86_64.AppImage`.
+1. Download the AppImage file `./qsafe-2.0.0-x86_64.AppImage`.
 
 2. Install appimage dependency:
 
@@ -46,8 +46,8 @@ If you have placed the Qsafe folder in a different location, please delete that 
     ```
 3. Open terminal and run the appimage:
     ```
-    chmod +x ./qsafe-1.2.0-x86_64.AppImage
-    ./qsafe-1.2.0-x86_64.AppImage
+    chmod +x ./qsafe-2.0.0-x86_64.AppImage
+    ./qsafe-2.0.0-x86_64.AppImage
     ```
 
 
@@ -55,11 +55,13 @@ If you have placed the Qsafe folder in a different location, please delete that 
 
 1. Using standalone executable:
 
-    * Download the `qsafe-1.2.0.exe` file.
+    * Download the `qsafe-2.0.0.exe` file.
     * We can directly open the software without any additional steps.
 
 ## Configuration
-The application defaults to **testnet** mode for safe testing and transaction handling. No further configuration changes are needed to enable testnet.
+The application defaults to **mainnet** mode. 
+No further configuration changes are needed to enable mainnet.
+For testing purpose use testnet flag `--testnet`.
 
 ## Future Updates
 We plan to provide updates with expanded compatibility and additional features. Feedback and reports on your experience are highly appreciated and will be addressed in subsequent releases.
