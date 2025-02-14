@@ -59,12 +59,13 @@ If you have placed the Qsafe folder in a different location, please delete that 
     ./qsafe-2.0.3-x86_64.AppImage
     ```
 
-## TESTNET
+#### TESTNET
+----
 To access testnet, please type this command in the terminal where the AppImage was present. 
 ```
 ./qsafe-2.0.3-x86_64.AppImage --testnet
 ```
-
+----
 ### For Windows:
 
 1. Using standalone executable:
@@ -74,9 +75,11 @@ To access testnet, please type this command in the terminal where the AppImage w
     * Open the extracted folder `qsafe-2.0.3`.
     * We can directly open the software without any additional steps.
 
-## TESTNET
+#### TESTNET
+----
 To access testnet please launch `qsafe-testnet.exe`.
 
+----
 ## Configuration
 The application defaults to **mainnet** mode. 
 No further configuration changes are needed to enable mainnet.
